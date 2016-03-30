@@ -20,6 +20,8 @@
     self.window.rootViewController = [[CBRootViewController alloc] init];
     [self.window makeKeyAndVisible];
     
+    application.idleTimerDisabled = YES;
+    
     return YES;
 }
 
